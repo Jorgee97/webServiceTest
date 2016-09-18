@@ -2,10 +2,10 @@ var http = require('http');
 var mssql = require('mssql');
 
 var config = {
-    user: 'ANDREA',
-    password: '123',
-    server: '192.168.0.136',
-    database: 'Pedidos'
+    user: 'user',
+    password: 'password',
+    server: 'xxx.xxx.xxx.xxx',
+    database: 'name'
 };
 var sqlConnection = new mssql.Connection(config);
 var request = new mssql.Request(sqlConnection);
