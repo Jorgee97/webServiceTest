@@ -4,7 +4,7 @@ var mssql = require('mssql');
 var config = {
     user: 'user',
     password: 'password',
-    server: 'xxx.xxx.xxx.xxx',
+    server: 'localhost',
     database: 'name'
 };
 var sqlConnection = new mssql.Connection(config);
